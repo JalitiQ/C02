@@ -6,8 +6,18 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 17:48:14 by lilian            #+#    #+#             */
-/*   Updated: 2025/06/30 18:07:26 by lilian           ###   ########.fr       */
+/*   Updated: 2025/06/30 18:40:11 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_str_is_alpha(char *str){}
+int	ft_str_is_alpha(char *str)
+{
+	int	i;
+
+	i = 0;
+	while ()
+	{
+		/* code */
+	}
+	
+}
