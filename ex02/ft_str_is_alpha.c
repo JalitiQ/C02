@@ -6,18 +6,30 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 17:48:14 by lilian            #+#    #+#             */
-/*   Updated: 2025/06/30 18:44:36 by lilian           ###   ########.fr       */
+/*   Updated: 2025/06/30 21:03:48 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_alpha(char *str)
 {
 	int	i;
+	int	ret;
 
 	i = 0;
-	while (str[i] > )
+	while (str[i])
 	{
-		/* code */
+		if ((str[i] >= 'A' && str[i] <= 'Z')
+			|| (str[i] >= 'a' && str[i] <= 'z')
+			|| (str[i] == '\0'))
+		{
+			ret = 1;
+		}
+		else
+		{
+			ret = 0;
+			break ;
+		}
+		i++;
 	}
-	
+	return (ret);
 }
