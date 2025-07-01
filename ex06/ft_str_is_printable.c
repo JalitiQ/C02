@@ -6,21 +6,11 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 23:52:32 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 00:22:08 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 10:17:59 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/30 23:47:15 by lilian            #+#    #+#             */
-/*   Updated: 2025/06/30 23:48:44 by lilian           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#include <stdio.h>
 
 int	ft_str_is_printable(char *str)
 {
@@ -30,7 +20,7 @@ int	ft_str_is_printable(char *str)
 	i = 0;
 	while (str[i])
 	{
-		if (() || (str[i] == '\0'))
+		if ((str[i] >= 32 && !(str[i] < 32)) || str[i])
 		{
 			ret = 1;
 		}
@@ -41,5 +31,11 @@ int	ft_str_is_printable(char *str)
 		}
 		i++;
 	}
+	printf("%d", ret);
 	return (ret);
+}
+
+int main(void)
+{
+	ft_str_is_printable("\n\t\v\f");
 }
