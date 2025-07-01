@@ -6,11 +6,11 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 23:52:32 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 18:04:04 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 19:44:30 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_str_is_printable(char *str)
+/*int	ft_str_is_printable(char *str)
 {
 	int	i;
 	int	ret;
@@ -30,7 +30,7 @@ int	ft_str_is_printable(char *str)
 		i++;
 	}
 	return (ret);
-}
+}*/
 
 /*int main(void)
 {

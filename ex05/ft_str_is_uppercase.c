@@ -6,11 +6,11 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 23:47:15 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 19:43:41 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 19:44:58 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_str_is_lowercase(char *str)
+int	ft_str_is_uppercase(char *str)
 {
 	int	i;
 	int	ret;
