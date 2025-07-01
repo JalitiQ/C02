@@ -6,11 +6,9 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 21:14:53 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 18:46:13 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 18:52:19 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_str_is_numeric(char *str)
 {

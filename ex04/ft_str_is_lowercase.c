@@ -6,11 +6,9 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 23:47:15 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 18:51:38 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 18:52:14 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_str_is_lowercase(char *str)
 {

@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ljullien <ljullien@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 15:04:41 by ljullien          #+#    #+#             */
-/*   Updated: 2025/06/30 16:52:44 by ljullien         ###   ########.fr       */
+/*   Updated: 2025/07/01 18:52:26 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
