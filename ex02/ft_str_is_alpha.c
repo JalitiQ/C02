@@ -6,7 +6,7 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 17:48:14 by lilian            #+#    #+#             */
-/*   Updated: 2025/06/30 21:03:48 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 18:27:31 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,14 +16,15 @@ int	ft_str_is_alpha(char *str)
 	int	ret;
 
 	i = 0;
-	while (str[i])
+	if (str[i] == '\0')
+	{
+		ret = 1;
+	}
+	while (str[i] != '\0')
 	{
 		if ((str[i] >= 'A' && str[i] <= 'Z')
-			|| (str[i] >= 'a' && str[i] <= 'z')
-			|| (str[i] == '\0'))
-		{
+			|| (str[i] >= 'a' && str[i] <= 'z'))
 			ret = 1;
-		}
 		else
 		{
 			ret = 0;
