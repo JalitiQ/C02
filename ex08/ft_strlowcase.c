@@ -6,11 +6,9 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/01 19:54:02 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 20:06:32 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 21:11:34 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {
